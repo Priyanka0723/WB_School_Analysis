@@ -94,7 +94,10 @@ The dataset contains district-level data for the years **2018, 2019, and 2020**,
 
 ## 📸 Dashboard Preview
 
-(Add screenshots here)
+<img width="984" height="735" alt="Overview" src="https://github.com/user-attachments/assets/288bd7f3-9701-4f46-898e-a051ec080cba" />
+<img width="984" height="738" alt="Deep Analysis" src="https://github.com/user-attachments/assets/be664885-8b6e-4b02-873f-50421094f640" />
+<img width="982" height="736" alt="Insights " src="https://github.com/user-attachments/assets/b112fb7d-1d3a-490c-88c2-c026b64a4b02" />
+
 
 ---
 
