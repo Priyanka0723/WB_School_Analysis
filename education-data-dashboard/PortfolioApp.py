@@ -31,21 +31,15 @@ div.block-container {
 def load_data():
     try:
         url = "https://raw.githubusercontent.com/Priyanka0723/WB_School_Analysis/main/education-data-dashboard/data/wb_education_featured.csv"
-    return pd.read_csv(url)
+        df = pd.read_csv(url)
         return df
     except Exception as e:
         st.error(f"Error loading data: {e}")
         return None
-
 df = load_data()
+
 if df is None:
     st.stop()
-
-# Now safe to use df
-year = st.sidebar.selectbox(
-    "Select Year",
-    sorted(df["Year"].unique())
-)
 
 # ---------------- SIDEBAR ----------------
 st.sidebar.header("🎛️ Filters")
