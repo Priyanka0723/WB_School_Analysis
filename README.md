@@ -1,122 +1,124 @@
-# 📊 West Bengal Education Data Analysis Dashboard
+# 📊 West Bengal Education Data Analysis Dashboard (Streamlit)
 
 ## 📌 Project Overview
+This project is an interactive data analysis dashboard built using Streamlit, focusing on district-wise education performance in West Bengal from 2018 to 2020.
 
-This project presents an **advanced data analysis dashboard** built using **Power BI**, focusing on district-wise education performance in West Bengal (2018–2020).
+The dashboard transforms raw educational data into dynamic visual insights, allowing users to explore trends, compare districts, and understand key performance drivers through an intuitive web interface.
 
-The goal of this project is to analyze trends, identify performance gaps, and derive actionable insights from educational data across multiple districts.
+---
+
+## 🚀 Live App
+https://wbschoolanalysis-avmrqcvspbtkb3vqnudbsj.streamlit.app/
 
 ---
 
 ## 🎯 Objectives
-
-* Analyze **district-wise education performance**
-* Identify **top and bottom performing districts**
-* Study the relationship between **retention rate and performance**
-* Compare **Madhyamik and Higher Secondary (HS) results**
-* Evaluate **gender participation trends**
-* Provide **data-driven insights and recommendations**
+- Analyze district-wise education performance
+- Identify top and bottom performing districts
+- Study correlation between retention rate and performance
+- Compare Madhyamik and Higher Secondary (HS) results
+- Evaluate gender participation trends
+- Generate actionable, data-driven insights
 
 ---
 
-## 🛠️ Tools & Technologies Used
-
-* Power BI (Dashboard & Visualization)
-* MySQL (Data Storage & Querying)
-* Python (Data Cleaning & Preprocessing)
-* Excel (Initial Dataset Handling)
+## 🛠️ Tech Stack
+- Streamlit – Interactive dashboard development
+- Python – Data analysis & preprocessing
+- Pandas – Data manipulation
+- Plotly – Interactive visualizations
+- MySQL – Data storage (optional)
+- Excel – Initial dataset handling
 
 ---
 
 ## 📂 Dataset Description
+The dataset contains district-level data (2018–2020), including:
 
-The dataset contains district-level data for the years **2018, 2019, and 2020**, including:
-
-* Government & Private school counts
-* Total students
-* Retention Rate
-* Madhyamik Pass Percentage
-* Higher Secondary Pass Percentage
-* Literacy Rate
-* Girls Participation (%)
-* Performance Index (calculated metric)
-
----
-
-## 📊 Dashboard Structure
-
-### 🔹 Page 1: Overview
-
-* KPI Cards (Avg Performance, Retention, Pass %)
-* District-wise Performance Ranking
-* Year-wise Trend Analysis
-* Interactive Filters (Year, District)
+- Government, Private & Other school counts
+- Total student enrollment
+- Retention Rate
+- Madhyamik Pass %
+- Higher Secondary Pass %
+- Literacy Rate
+- Girls Participation (%)
+- Performance Index (custom metric)
 
 ---
 
-### 🔹 Page 2: Deep Analysis
+## 📊 App Features
 
-* 📈 Scatter Plot: Retention vs Performance (Correlation)
-* 🏆 Top 5 & Bottom 5 Districts
-* 📉 Gap Analysis: HS vs Madhyamik
-* 👩 Gender Analysis: Girls Participation
-* Insight-driven visual exploration
+### 🔹 Overview Dashboard
+- KPI Cards (Avg Performance, Retention, Pass %)
+- District-wise Performance Ranking
+- Year-wise Trend Analysis
+- Interactive Filters (Year, District)
 
 ---
 
-### 🔹 Page 3: Insights & Storytelling
+### 🔹 Deep Analysis
+- Retention vs Performance (Scatter Plot)
+- Top 5 & Bottom 5 Districts
+- HS vs Madhyamik Gap Analysis
+- Gender Participation Insights
 
-* Key findings and trends
-* District-level observations
-* Strategic recommendations
-* Mini trend chart for performance growth
+---
+
+### 🔹 Insights & Storytelling
+- Key trends and findings
+- District-level observations
+- Performance growth analysis
+- Strategic recommendations
 
 ---
 
 ## 🔍 Key Insights
-
-* 📈 **Performance improved steadily** from 2018 to 2020
-* 🔗 **Positive correlation** between retention rate and performance
-* 🏆 Certain districts consistently outperform others
-* ⚠️ Significant gap between top and bottom districts
-* 🎓 Variation observed between HS and Madhyamik results
+- Performance improved steadily from 2018 to 2020
+- Positive correlation between retention and performance
+- Some districts consistently outperform others
+- Noticeable gap between top and bottom performers
+- Variation exists between HS and Madhyamik results
 
 ---
 
 ## 💡 Recommendations
-
-* Improve **retention strategies** in low-performing districts
-* Reduce **performance gap** between HS and Madhyamik
-* Promote **balanced gender participation**
-* Adopt best practices from **top-performing districts**
-
----
-
-## 📸 Dashboard Preview
-
-<img width="984" height="735" alt="Overview" src="https://github.com/user-attachments/assets/288bd7f3-9701-4f46-898e-a051ec080cba" />
-<img width="984" height="738" alt="Deep Analysis" src="https://github.com/user-attachments/assets/be664885-8b6e-4b02-873f-50421094f640" />
-<img width="982" height="736" alt="Insights " src="https://github.com/user-attachments/assets/b112fb7d-1d3a-490c-88c2-c026b64a4b02" />
-
+- Improve retention strategies in low-performing districts
+- Reduce performance gaps across districts
+- Strengthen HS performance alignment with Madhyamik
+- Encourage balanced gender participation
+- Replicate best practices from top-performing districts
 
 ---
 
-## 🚀 How to Use
+## 🖥️ How to Run Locally
 
-1. Download the Power BI file (.pbix)
-2. Open in Power BI Desktop
-3. Use filters (Year, District) to explore insights
-4. Interact with visuals for dynamic analysis
+``bash
+# Clone the repository
+git clone <your-repo-link>
 
+# Navigate to project folder
+cd <your-project-folder>
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the Streamlit app
+streamlit run PortfolioApp.py
 ---
 
 ## 📁 Project Structure
+/data        → Dataset files  
+/sql         → SQL queries  
+/python      → Data preprocessing scripts  
+/app         → Streamlit app code  
+README.md  
+requirements.txt  
 
-* /data → Raw dataset
-* /sql → SQL queries
-* /python → Data preprocessing scripts
-* /dashboard → Power BI file
-* README.md
+---
+## 📸 App Preview
+<img width="984" height="735" alt="Overview" src="https://github.com/user-attachments/assets/288bd7f3-9701-4f46-898e-a051ec080cba" /> 
+<img width="984" height="738" alt="Deep Analysis" src="https://github.com/user-attachments/assets/be664885-8b6e-4b02-873f-50421094f640" /> 
+<img width="982" height="736" alt="Insights " src="https://github.com/user-attachments/assets/b112fb7d-1d3a-490c-88c2-c026b64a4b02" />
 
 ---
 
@@ -124,19 +126,14 @@ The dataset contains district-level data for the years **2018, 2019, and 2020**,
 
 This project demonstrates:
 
-* Data Cleaning & Transformation
-* Data Visualization & Dashboard Design
-* Analytical Thinking & Insight Generation
-* SQL Querying Skills
-* Business-Oriented Data Interpretation
+- Interactive Dashboard Development (Streamlit)  
+- Data Cleaning & Transformation  
+- Data Visualization & Storytelling  
+- Analytical Thinking & Insight Generation  
+- Real-world Dataset Handling  
+- End-to-End Data Project Execution  
 
 ---
 
 ## 📬 Contact
-
-If you have any feedback or suggestions, feel free to connect.
-
----
-
-⭐ If you found this project useful, consider giving it a star!
-
+Feel free to connect for feedback, collaboration, or opportunities.
