@@ -21,11 +21,16 @@ div.block-container {
 """, unsafe_allow_html=True)
 
 # ---------------- LOAD DATA ----------------
+    #@st.cache_data
+   # def load_data():
+    #    return pd.read_csv("data/wb_education_featured.csv")  
+    
+    #df = load_data()
+
 @st.cache_data
 def load_data():
-    return pd.read_csv("data/wb_education_featured.csv")  
-
-df = load_data()
+    url = "https://raw.githubusercontent.com/Priyanka0723/WB_School_Analysis/main/education-data-dashboard/data/wb_education_featured.csv"
+    return pd.read_csv(url)
 
 # ---------------- SIDEBAR ----------------
 st.sidebar.header("🎛️ Filters")
