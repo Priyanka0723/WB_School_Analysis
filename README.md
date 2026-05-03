@@ -93,17 +93,21 @@ The dataset contains district-level data (2018–2020), including:
 ## 🖥️ How to Run Locally
 
 ``bash
-# Clone the repository
+Clone the repository
 git clone <your-repo-link>
 
-# Navigate to project folder
+Navigate to project folder
 cd <your-project-folder>
 
-# Install dependencies
+Install dependencies
+pip install -r requirements.txt 
+
+Install dependencies
 pip install -r requirements.txt
 
-# Run the Streamlit app
+Run the Streamlit app
 streamlit run PortfolioApp.py
+
 ---
 
 ## 📁 Project Structure
