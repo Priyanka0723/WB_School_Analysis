@@ -22,12 +22,10 @@ div.block-container {
 https://github.com/Priyanka0723
 # ---------------- LOAD DATA ----------------
 @st.cache_data
-#def load_data():
-#    return pd.read_csv("data/wb_education_featured.csv")  
+def load_data():
+    return pd.read_csv("data/wb_education_featured.csv")  
 
-#df = load_data()
-url = "https://raw.githubusercontent.com/Priyanka0723/WB_School_Analysis/main/data/wb_education_featured.csv"
-df = pd.read_csv(url)
+df = load_data()
 
 # ---------------- SIDEBAR ----------------
 st.sidebar.header("🎛️ Filters")
